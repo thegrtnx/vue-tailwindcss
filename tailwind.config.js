@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "weather-primary": "#00668A",
-        "weather-secondary": "#004E71",
+        "urbanpay-primary": "#632FD9",
+        "urbanpay-secondary": "#DBFE87",
       },
     },
     fontFamily: {
