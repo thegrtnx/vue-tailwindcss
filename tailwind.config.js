@@ -9,16 +9,17 @@ module.exports = {
       },
     },
     fontFamily: {
-      Roboto: ["Roboto, sans-serif"],
+      Poppins: ["poppins, sans-serif"],
+      SpaceGrotesk: ["Space Grotesk, sans-serif"],
     },
-    container: {
+    /*container: {
       padding: "2rem",
       center: true,
     },
     screens: {
       sm: "640px",
       md: "768px",
-    },
+    },*/
   },
   plugins: [],
 };
