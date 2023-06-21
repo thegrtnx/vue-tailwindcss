@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./index.html", 
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
+  ],
   theme: {
     extend: {
       colors: {
@@ -10,7 +14,7 @@ module.exports = {
     },
     fontFamily: {
       Poppins: ["poppins, sans-serif"],
-      SpaceGrotesk: ["Space Grotesk, sans-serif"],
+      SpacGrotesk: ["Space Grotesk, sans-serif"],
     },
     /*container: {
       padding: "2rem",
@@ -21,5 +25,7 @@ module.exports = {
       md: "768px",
     },*/
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 };
